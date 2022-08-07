@@ -1,1 +1,1 @@
-print("人生苦短，我学python")
+print("开学8B118等着！")
