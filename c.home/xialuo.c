@@ -1,11 +1,14 @@
 #include<stdio.h>
 int main()
 {
-    int m,n,i;
-    double h,l;
-    scanf("%d%d",&m,&n);
-    for(i=1;i<=n,i++)
-    {
-        
-    }
+    int n,i;
+    double t=0,a=1;
+    scanf("%d",&n);
+    for(i=1;i<=n;i++)
+        {
+            t+=1.0/a;
+            a++;
+        }
+    printf("%.6lf",t);
+    return 0;
 }
