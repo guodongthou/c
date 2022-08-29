@@ -1,6 +1,6 @@
 import java.util.Random;
 import java.util.Scanner;
-public class Nunber
+public class Game
 {
     public static void main(String [] args)
     {
