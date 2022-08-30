@@ -1,27 +1,24 @@
 import java.util.Scanner;
-public class Years
-{
-    public static void main(String[] args)
-    {
+
+public class Years {
+    public static void main(String[] args) {
         int year, month, xqs;// 输入年份和该年第一天的星期数
         System.out.println("请输入年份");
-        Scanner s = new Scanner(System.in);
-        year = s.nextInt();
+        try (Scanner s = new Scanner(System.in)) {
+            year = s.nextInt();
+        }
         xqs = ((year - 1) / 4 - (year / 100) + (year / 400) + (year - 1) * 365) % 7 + 1;
-        for (month = 1; month <= 12; month++)
-        {
+        for (month = 1; month <= 12; month++) {
             System.out.println(month + "月:");
             System.out.println("Sun Mon Tue Wed Thu Fri Sat ");// 输出日历头
             if (xqs == 7)
                 System.out.print(" ");
-            else
-            {
+            else {
                 for (int kg = 1; kg <= xqs; kg++)// 输出第一天前的空格
                     System.out.printf("%4c", ' ');
             }
             int days = 0;// 计算days的值
-            switch (month)
-            {
+            switch (month) {
                 case 1:
                 case 3:
                 case 5:
