@@ -11,6 +11,8 @@ double fun( int m)
 	return sqrt(s);
 }
 main()
-{  
-	printf("%lf\n",fun(20));
+{
+	int n;
+	scanf("%d",&n);
+	printf("%lf\n",fun(n));
 }

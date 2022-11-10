@@ -5,10 +5,10 @@
 #include <stdio.h>
 float fun(int m,int n)
 {
-
+  
 }
 main()
-{       
-  printf("%f\n",fun(12,8));
+{
+    printf("%f\n",fun(12,8));
     
 }

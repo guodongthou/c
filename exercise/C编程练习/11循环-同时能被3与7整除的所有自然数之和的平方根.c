@@ -4,7 +4,14 @@
 #include <stdio.h>
 double fun(int n)
 {
-
+    int i,sum=0;
+    double t;
+    for(i=1;i<n;i++){
+        if(i%3==0&&i%7==0)
+            sum+=i;
+    }
+    t=sqrt(sum);
+    return t;
 }
 main() 
 {   

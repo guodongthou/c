@@ -3,7 +3,9 @@
 #include <stdio.h>
 fun(int a,int b)
 {
-
+	int c;
+	c=b/10*1000+a/10*100+b%10*10+a%10;
+	return c;
 }
 main()   
 {  

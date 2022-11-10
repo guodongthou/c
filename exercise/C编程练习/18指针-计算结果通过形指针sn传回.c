@@ -6,12 +6,12 @@
 #include <stdio.h>
 void fun(float *sn,int n)
 {
-
+    
 }
 main()
 {    
-	int n=11;
-	float s;
-	fun(&s,n);
-	printf("S=%f N=%d\n",s,n);
+    int n=11;
+    float s;
+    fun(&s,n);
+    printf("S=%f N=%d\n",s,n);
 }

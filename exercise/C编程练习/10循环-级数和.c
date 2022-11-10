@@ -6,7 +6,7 @@
 #include <math.h>
 double fun(double x,int n)
 {
-
+    
 }
 main()
 {   

@@ -5,7 +5,13 @@
 #include <stdio.h>
 float fun(int n)
 {
-
+    int i,t=0;
+    float sum=0;
+    for(i=1;i<=n;i++) {
+        t+=i;
+        sum+=1.0/t;
+    }
+    return sum;
 }
 main()
 {   
