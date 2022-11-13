@@ -2,7 +2,10 @@
 #include <stdio.h>
 float fun (float h)
 {
-
+	float number;
+	number=(int)(h*100+0.5);
+	number=(float)(number/100);
+	return number;
 }
 main( )
 {   

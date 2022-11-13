@@ -3,12 +3,7 @@
 #include <stdio.h>
 fun (int a[][M])
 {
-	int i,j,maximum=0;
-	for(i=0;i<2;i++)
-		for(j=0;j<M;j++)
-			if(a[i][j]>maximum)
-				maximum=a[i][j];
-	return maximum;
+
 }
 main()
 {  

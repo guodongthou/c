@@ -7,7 +7,7 @@ public class Years {
         try (Scanner s = new Scanner(System.in)) {
             year = s.nextInt();
         }
-        xqs = ((year - 1) / 4 - (year / 100) + (year / 400) + (year - 1) * 365) % 7 + 1;
+            xqs = ((year - 1) / 4 - (year / 100) + (year / 400) + (year - 1) * 365) % 7 + 1;
         for (month = 1; month <= 12; month++) {
             System.out.println(month + "月:");
             System.out.println("Sun Mon Tue Wed Thu Fri Sat ");// 输出日历头

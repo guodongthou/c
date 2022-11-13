@@ -5,7 +5,6 @@ S=(1 - йд) + (йд - йд) +бн+ (йдйд - йдйд)
 #include <stdio.h>
 double fun(int  n)
 {
-
 }
 main()
 { 
